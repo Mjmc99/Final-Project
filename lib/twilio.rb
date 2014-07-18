@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'twilio-ruby'
-# require_relative 'scraper.rb'
+require_relative 'scraper.rb'
 
 class TextingData
 def initialize 
