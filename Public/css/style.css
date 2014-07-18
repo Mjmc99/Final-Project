@@ -1,0 +1,14 @@
+/*body {background-color:black;}
+*/
+h1 {
+    color: #00ff00;
+}
+h3 {
+    color: #00ff00;
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
