@@ -5,12 +5,12 @@
   <script type="text/javascript">function tb8_makeArray(n){this.length = n;return this.length;}tb8_messages = new tb8_makeArray(3);tb8_messages[0] = "The current";tb8_messages[1] = "temp in MA";tb8_messages[2] = "is "+ <%=@scraper.weather%>;stb8_rptType = "";tb8_rptNbr = 5;tb8_speed = 100;tb8_delay = 2000;var tb8_counter=1;var tb8_currMsg=0;var tb8_tekst ="";var tb8_i=0;var tb8_TID = null;function tb8_pisi(){tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);document.title = tb8_tekst;tb8_sp=tb8_speed;tb8_i++;if (tb8_i==tb8_messages[tb8_currMsg].length){tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;}if (tb8_currMsg == tb8_messages.length){if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){clearTimeout(tb8_TID);return;}tb8_counter++;tb8_currMsg = 0;}tb8_TID = setTimeout("tb8_pisi()", tb8_sp);}tb8_pisi()</script>
   <meta charset="UTF-8">
 
-  <h1> Play Pacman</h1>
+
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-
+  <h1> Play Pacman</h1>
 
 <p>  <script>window.google={kEI:"Quz2S63qIYeglAfw8oHGCg",kEXPI:"17259,23663,24477,24661,24745,24770,24808",kCSI:{e:"17259,23663,24477,24661,24745,24770,24808",ei:"Quz2S63qIYeglAfw8oHGCg",expi:"17259,23663,24477,24661,24745,24770,24808"},ml:function(){},pageState:"#",kHL:"en",time:function(){return(new Date).getTime()},log:function(b,d,c){var a=new Image,e=google,g=e.lc,f=e.li;a.onerror=(a.onload=(a.onabort=function(){delete g[f]}));g[f]=a;c=c||"/gen_204?atyp=i&ct="+b+"&cad="+d+"&zx="+google.time();a.src=c;e.li=f+1},lc:[],li:0,j:{en:1,l:function(){},e:function(){},b:location.hash&&location.hash!="#",bv:3,pl:[],mc:0,sc:0.5},Toolbelt:{}};(function(){for(var d=0,c;c=["ad","bc","p","pa","zd","ac","pc","pah","ph","sa","xx","zc","zz"][d++];)(function(a){google.j[a]=function(){google.j.pl.push([a,arguments])}})(c)})();
  window.google.sn="webhp";window.google.timers={load:{t:{start:(new Date).getTime()}}};try{window.google.pt=window.gtbExternal&&window.gtbExternal.pageT();}catch(u){}window.google.jsrt_kill=1;
